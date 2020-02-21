@@ -1,0 +1,16 @@
+*Decisões de projeto
+
+1) Projeto teve como base o CODE PATTERN já estruturado nas classes Cliente/ClienteDAOImpl (Classes iniciais proposta para o teste) com o objetivo de 
+simplificar a leitura do código e possibilitar o melhor entendimento para todos os desenvolvedores relacionados com este projeto.
+
+2) Foram feitos alguns relacionamentos entre tabelas SQL para obter maiores informações.
+
+3) Projeto de maneira geral simples para conhecimento dos avaliadores 
+
+4) Projeto foi criado para demonstrar conhecimentos sobre a linguagem JAVA, conexão com o Postgres e alguns métodos.
+
+5) Projeto vinculado a um repositório no github para fácil manutenção. 
+
+6) Busco uma oportunidade de uma vaga Junior para aprimorar meus conhecimentos e proporcionar o melhor projeto para empresa PariPassu no qual gostaria
+muito de uma oportunidade para trabalhar com vocês. Ficarei lisonjeado.
+

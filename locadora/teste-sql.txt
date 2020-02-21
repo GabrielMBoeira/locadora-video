@@ -1,0 +1,29 @@
+Seu nome: Gabriel Machado Boeira
+
+------------CONSULTAS SQL FilmeDAOImpl------------
+
+1) select nextval('seq_en_filme');
+
+2) insert into en_filme (id_filme, data_lancamento, nome, descricao) values (?, ?, ?, ?);
+
+3) update en_filme set nome = (?), descricao = (?), data_lancamento = (?) where id_filme = (?);
+
+4) delete from en_filme where id_filme = (?);
+
+5) select * from en_filme where id_filme = (?);
+
+6) select * from en_filme order by nome;
+
+------------CONSULTAS SQL AluguelDAOImpl------------
+
+1) insert into en_aluguel (id_aluguel, id_cliente, data_aluguel, valor) values (?, ?, ?, ?);
+
+2) select nextval('seq_en_aluguel');
+
+3) update en_aluguel set id_cliente = (?), data_aluguel = (?), valor = (?) where id_aluguel = (?);
+
+4) delete from en_aluguel where id_aluguel = (?);
+
+5) select id_aluguel, en_cliente.nome, data_aluguel, valor from en_aluguel inner join en_cliente on en_aluguel.id_cliente = en_cliente.id_cliente where id_aluguel = (?);
+
+6) select id_aluguel, nome, data_aluguel, valor from en_aluguel inner join en_cliente on en_aluguel.id_cliente = en_cliente.id_cliente;
